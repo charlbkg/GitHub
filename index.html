@@ -5,63 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charlotte's Site</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="style.css">
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    <!-- This is a comment ab my heading -->
-    <div class="container">
+    <!-- Adding titles for the site -->
+  <div class="container">
     <div>
-    <h1>Tbh this is a heading for my site</h1>
-    <p>And this is my paragraph</p>
+      <br>
+      <h1>Rough Resume Web Map Site</h1>
+      <br>
+      <!-- Adding text explaining te purpose of the site -->
+    <p>This site is a space for me to experiment building websites with the goal of making my own web-based GIS portfolio for the maps I've made in my undergrad. </p>
     <br>
-    <p>And here's another line >:]</p>
-    <a href="https://slither.io/">Click here for a good time</a>
-    <a target="_blank" href="https://www.google.com/maps/@43.649144,-79.4035086,14.53z?entry=ttu">And here</a>
+    <p>I will also use this site to learn about incorporating web-mapping into sites I have developed myself. The end goal is to create a web-map that also functions as a resume, depicting the experiences I've had as points on a map that can be interacted with to provide more information about my skillsets and goals.</p>
+    <br>
+    <a href="https://sites.google.com/view/gis-portfolio-ckg?usp=share_link">This links to the GIS portfolio I currently have on a pre-made google site.</a>
+    <br>
+    <br>
+    <p>Eventually, I will incorporate an embedded web map showing a spatial layout of the experiences listed on my resume. For now, I will link a GeoJSON file containing a subset of my experiences from Toronto. Creating this file helped me learn about creating the properties which will allow me to add information and context to my resume points.</p>
+    <a href="Resume.geojson">Here is a link to my GeoJSON file</a>
+    <br>
+    <br>
+    <!-- Practicing linking images by embedding maps I've made from a link to my google sites portfolio-->
+    <p>Here are some maps from my google site that I have added external links to:</p>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img src="https://lh4.googleusercontent.com/ivK3ALyz1ROoDYRUHrTow5fzlVtn7svsqqAHBbq0AWbzfDpl1c-EpXZbzzKBYQf8CoHuL015vVCcEgL8axDH0zVRfmTHiHR1oMLN_WMpGAOsA0-OM3C6es0kXLchGrdU8Q=w1280" alt="Habitat suitability map" width="90%">
     </div>
-    <div>
-        <div class=row>
-            <div class="col">Col 1</div>
-<div class="col">Col 2
-    <button type="button" class="btn btn-primary"
-id = "my-button">My Button</button>
+    <div class="col">
+        <img src="https://lh3.googleusercontent.com/wEn23rHlXnZTyB9S7HwxG_pE0ZPiUzG1O6MBMitdRbbcxh0QkZLqJIRF4VO3bNoeO9LHtf92AuB-e0kQtRnAyln3SwBEVv5naxWSYRM36u6LJ9maeEw0bouCNcZalPJx9A=w1280" alt="Lancover types map"width="80%">
+    </div>
+    <div class="col">
+        <img src="https://lh6.googleusercontent.com/2Agdlpl2h8f_3yGIzEuPWLYhZrH2ffKp_9crhYmXYAUcBhaOFw1Ox0jGHgoX__NRQhfXLpXRMllgfgqTzWA6BFP2pef8KXbQTxkDrbuuvHLfCucjBFSKBPqZao1-DO4jMA=w1280" alt="Interpolation example"width="80%">
+    </div>
 </div>
-<div class="col">Col 3</div>
-        </div>
+    <div>
     </div>
 
     <script src="script.js"></script>

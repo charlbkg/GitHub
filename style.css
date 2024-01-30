@@ -1,0 +1,5 @@
+<!-- could not make this work, trying to resize linked images using css -->
+img.resize {
+    width:50%; 
+    height: auto;
+}
